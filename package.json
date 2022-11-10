@@ -9,14 +9,36 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ceramicnetwork/blockchain-utils-linking": "^2.6.0",
+    "@ceramicnetwork/http-client": "^2.10.0",
+    "@chakra-ui/react": "^2.3.7",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@glazed/did-datastore": "^0.3.2",
+    "@glazed/did-session": "^0.1.1",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
+    "framer-motion": "^7.6.5",
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "dids": "^3.4.0",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "key-did-provider-ed25519": "^2.0.1",
+    "key-did-resolver": "^2.3.0",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10"
   }
 }
