@@ -15,7 +15,7 @@ import ceramic from './utils/dataclient';
 
 export default function Index() {
   /** Todo: add button disabled to "Load" if not connected */
-  const [name, Ceramic] = useState('');
+  const [name, setName] = useState('');
   const [nationality, setNationality] = useState('');
   const [gender, setGender] = useState('');
   const [connect, setConnect] = useState('Connect');
@@ -78,7 +78,7 @@ export default function Index() {
   };
 
   const handleName = (e: React.ChangeEvent<HTMLInputElement>) => {
-    Ceramic(e.target.value);
+    setName(e.target.value);
   };
 
   const handleNationality = (e: React.ChangeEvent<HTMLInputElement>) => {
