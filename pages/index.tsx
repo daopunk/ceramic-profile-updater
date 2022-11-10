@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Text, Button, Input, Select } from '@chakra-ui/react';
 import { FormControl, FormLabel } from '@chakra-ui/form-control';
 import { Heading, VStack, HStack, Box, Flex, Spacer } from '@chakra-ui/layout';
